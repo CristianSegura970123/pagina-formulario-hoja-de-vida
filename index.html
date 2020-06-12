@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head> 
+        <meta charset="utf-8" />  <!-- Sirve para que la pagina hacepte cualquier caracter --> 
+        <title>ESTACION METEOROLOGICA </title>
+        <meta name="description" content="Aqui escribimos de que se trata la pagina web porque ayuda a dar informacion de esta" />
+        <meta name="author" content="nombre del autor de la pagina" />
+        <meta name="keywords" content="blog Cristian ingenieria" />
+        <link rel="stylesheet" href="estilos.css"> <!--llamo al archivo estilo-->
+        <!--configura el estilo de la pagina web (style)-->  
+    </head> 
+    <body>
+        <div class="agrupar">  <!--div sirve para agregar un nuevo atributo a nuestro codigo html-->
+                <!--selectores id="nombre de identificacion"-->
+            <header class="cabecera"> <!--cabecera-->
+                <h1>Estación Meteorologica Datos</h1>
+            </header>
+            
+    
+            <section class="seccion">
+                <article > <!--Articulos 1 -->
+                    <hgroup>
+                        <!--Comando class sirve para seleccionar diferentes tipos de elementos, como encabezados, parafos etc-->
+                        <h1><i>TOMA DE DATOS</i>  </h1>
+                    </hgroup>
+                    
+                    <img src="IMAGENES/meteorologico.jpg" /> 
+                    <p> 
+                        <!--<DIV ALIGN="justify"><P>-->
+
+                    <form class="datos" action="/my-handling-form-page" method="post">
+                        <ul class="lista_datos">
+                            <li>
+                                <label for="celcius">Temperatura:</label>
+                                <input type="number" placeholder="escribe la temperatura en celcius" id="celcius" name="celcius">
+                            </li>
+                            <li>
+                                <label for="humedad_relativa">Humedad relativa:</label>
+                                <input type="number" placeholder="escribe la Humedad relativa" id="humedad_relativa" name="humedad_relativa">
+                            </li>
+                            <li>
+                                <label for="humedad_absoluta">Humedad Absoluta:</label>
+                                <input type="number" placeholder="escribe la Humedad Absoluta" id="humedad_absoluta" name="humedad_absoluta">
+                            </li>
+                            <li>
+                                <label for="velocidad_del_viento">Velocidad del viento:</label>
+                                <input type="number" placeholder="escribe la Velocidad del viento" id="velocidad_del_viento" name="velocidad_del_viento">
+                            </li>
+                            <li>
+                                <label for="presion_atmosferica">Presión Atmosférica:</label>
+                                <input type="number" placeholder="escribe la Presión Atmosférica" id="presion_atmosferica" name="presion_atmosferica">
+                            </li>
+                            <li>
+                                <label for="identificacion">identificacion:</label>
+                                <input type="number" placeholder="escribe la identificacion" id="identificacion" name="identificacion">
+                            </li>
+                            <li>
+                                <label for="fecha">Fecha:</label>
+                                <input type="number" placeholder="escribe la Fecha" id="fecha" name="fecha">
+                            </li>
+
+                            <input type="button" value="enviar">
+                         
+                        </ul>
+                    </form>
+                            
+
+
+                        </p>
+                      
+                        <address> <!-- Le dice al navegador que lo que este dentro es un dirreccion de internet-->
+                            <br> <a href="http://www.udenar.edu.co">Visita la pagina de la universidad </a>
+                        </address>
+                        
+                </article>
+                    
+            </section>
+
+           
+  
+            <footer class="pie">
+                Derechos reservados 2020
+                <br><time datetime="09-MAY-2020">Publicado 09-MAY-2020</time>
+            </footer>
+        </div>    
+
+    </body>
+</html>
+
+<!--<br> sirve para saltar renglon -->
